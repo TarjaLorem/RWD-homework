@@ -184,7 +184,7 @@
     }
     
     .aside-info {
-        width: 95px;
+        width: 31%;
         height: 35px;
     }
     
@@ -196,6 +196,7 @@
         width: 90%;
         justify-content: space-between;
         height: auto;
+        flex-wrap: nowrap;
     }
     
     .section-title {

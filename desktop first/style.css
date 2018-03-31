@@ -3,74 +3,63 @@
     margin: 0;
     border: 0;
 }
-
 .header {
-    height: 130px;
     width: 100%;
+    height: 130px;
     background: #00AEFF;
 }
-
 .main-header {
     width: 80%;
     height: 130px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
-
 .logo {
-    height: 65px;
     width: 350px;
+    height: 65px;
     background: #009BDD;
 }
-
 .banner {
     width: 350px;
     height: 65px;
     background: #36C3FF;
 }
-
 .wrapper {
-    display: flex;
     width: 80%;
     height: 1000px;
+    display: flex;
     margin: 0 auto;
 }
-
 .aside {
     width: 20%;
     background: #FF5607; 
 }
-
 .aside-conteiner {
     width: 76%;
     height: 380px;
-    margin: 25px auto 0px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+    margin: 25px auto 0px;
 }
-
 .aside-info {
     width: 100%;
     height: 45px; 
     background: #E84900;
 }
-
 .section {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     padding: 25px 0px 20px 15px; 
 }
-
 .main-section-container {
-    display: flex;
     width: 100%;
+    display: flex;
     justify-content: space-between;
 }
-
 .section-cover {
     width: 45%;
     height: 300px;
@@ -84,19 +73,16 @@
     flex-wrap: wrap;
     align-content: space-between; 
 }
-
 .section-title {
-    background: #9D9D9D;
     width: 100%;
     height: 40px; 
+    background: #9D9D9D;
 }
-
 .section-description {
-    background: #CECECE;
     width: 100%;
     height: 30px;
+    background: #CECECE;
 }
-
 .second-section-conteiner {
     width: 100%;
     height: 610px;
@@ -104,14 +90,12 @@
     flex-wrap: wrap;
     align-content: space-between;
 }
-
 .footer {
     width: 100%;
     height: 240px;
     background: #00D169;
     display: flex;
 }
-
 .nav {
     width: 63%;
     margin: 0 auto;
@@ -119,7 +103,6 @@
     justify-content: space-between;
     align-items: center;
 }
-
 .nav-container {
     width: 176px;
     height: 170px;
@@ -130,28 +113,23 @@
     padding: 10px 0px;
     
 }
-
 .nav-container-div {
     width: 73%;
     height: 28px;
     background: #038042;
     margin: 0 auto;
 }
-
 @media screen and (max-width: 1240px) {
     
     .main-header {
        width: 95%; 
     }
-    
     .wrapper {
         width: 100%;
     }
-    
     .section {
         padding: 25px 15px 20px;
     }
-    
     .nav {
       width: 80%;  
     }
@@ -159,105 +137,87 @@
 }
 
 @media screen and (max-width: 375px) {
+    
     .main-header {
         width: 90%;
         flex-wrap: wrap;
         align-content: space-evenly;
     }
-    
     .logo {
         height: 40px;
     }
-    
     .banner {
         height: 40px;
     }
-    
     .wrapper {
-        flex-direction: column;
         height: 1020px;
+        flex-direction: column;
     }
-    
     .aside {
         width: 100%;
         height: 85px;
     }
-    
     .aside-info {
         width: 31%;
         height: 35px;
     }
-    
-    .aside-info-hide {
+    .aside-info--hidden {
         display: none;
     }
-    
     .aside-conteiner {
         width: 90%;
         justify-content: space-between;
         height: auto;
         flex-wrap: nowrap;
     }
-    
     .section-title {
         height: 30px;
 
     }
-    
     .section-description {
         height: 20px;
     }
-    
     .first-section-conteiner {
         width: 95%;
-        margin: 20px auto 0;
         height: 230px;
-    }
-    
-    .second-section-conteiner {
-        height: 420px;
-        width: 95%;
         margin: 20px auto 0;
     }
-    
+    .second-section-conteiner {
+        width: 95%;
+        height: 420px;
+        margin: 20px auto 0;
+    }
     .section-cover {
         width: 100%;
         height: 220px;
     }
-    
     .main-section-container {
         flex-direction: column;
     }
-    
     .section {
         width: 100%;
-        padding: 0;
         flex-direction: column;
+        padding: 0;
     }
-    
     .footer {
         height: auto;
     }
-    
     .nav {
         width: 90%;
         flex-wrap: wrap;
         padding: 10px 0;
     }
-    
     .nav-container {
-        height: 40px;
         width: 100%;
+        height: 40px;
         padding-left: 20px;
         margin: 10px 0;
     }
-    
     .nav-container-div {
         width: 60%;
         margin: 5px;
     }
-    
-    .nav-container-hide {
+    .nav-container--hidden {
         display: none;
     }
 }

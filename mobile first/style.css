@@ -1,4 +1,3 @@
-
 @font-face{
     font-family: 'Antic-Regular';
     src: url(fonts/Antic-Regular.ttf);
@@ -11,7 +10,6 @@
     from { margin-left: 0%; }
     to { margin-left: 15%; }
 }
-
 * {
     padding: 0;
     margin: 0;
@@ -23,7 +21,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .logo {
     font-family: Righteous-Regular;
     font-size: 42px;

@@ -1,10 +1,10 @@
 @font-face{
     font-family: 'Antic-Regular';
-    src: url(fonts/Antic-Regular.ttf);
+    src: url(../fonts/Antic-Regular.ttf);
 }
 @font-face{
     font-family: 'Righteous-Regular';
-    src: url(fonts/Righteous-Regular.ttf);
+    src: url(../fonts/Righteous-Regular.ttf);
 }
 * {
     padding: 0;
